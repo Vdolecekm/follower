@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 Username Checker
+# 🔍 FOLLOWER
 
 **Check whether a username exists on popular social media platforms, straight from your terminal.**
 
@@ -16,8 +16,7 @@
 
 - Checks a username on several platforms with a single command
 - Uses a real headless browser (Playwright), so it works on JavaScript-heavy sites that plain HTTP requests can't read
-- Reports `found`, `not found` or `unknown` instead of guessing when a site blocks the check
-- Modular: every platform lives in its own file
+- Reports `found`, `not found`, `unknown` or `timeout` instead of guessing when a site blocks the check
 
 ## 🌐 Supported platforms
 
@@ -33,8 +32,8 @@ You need **Python 3.9 or newer**.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/Vdolecekm/follower.git
+cd follower
 
 # 2. Create a virtual environment
 python -m venv .venv
@@ -125,4 +124,4 @@ This tool is intended for personal and educational use. Respect the terms of ser
 
 ## 🏷 Version
 
-**1.0.0** — Initial release: check a single username on YouTube, Instagram and TikTok.
+**1.0.0**
