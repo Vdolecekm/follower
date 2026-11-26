@@ -95,7 +95,7 @@ python main.py qzxwv91kd0
 | Symbol | Meaning |
 |:------:|---------|
 | `[+]` | The account exists |
-| `[-]` | The account was not found |
+| `[-]` | The account was not found / Timeout |
 | `unknown` | The site showed a login wall, cookie page, captcha or timed out, so the result can't be trusted |
 
 ## 🗂 Project structure
